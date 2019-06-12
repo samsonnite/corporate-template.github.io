@@ -1,7 +1,11 @@
 header{
 	color: #fff;
+	background-color: #194f86;
 	height: 112px;
 	line-height: 112px;
+	position: fixed;
+	z-index: 9999;
+	width: 100%;
 }
 header a.logo{
 	float: left;
@@ -68,6 +72,20 @@ header nav ul li a:hover{
 	background-position: center;
 	background-attachment: fixed;
 }
+.img2{
+	background-image: url(imgs/slider/slider2.png);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.img3{
+	background-image: url(imgs/slider/slider3.png);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
 .slider ul.slider-carousel li a.cta1:hover{
 	background-color: #ff695a;
 }
@@ -88,6 +106,14 @@ header nav ul li a:hover{
 .slider ul.sliderpager li.selected a{
 	color: #e74c3c;
 	
+}
+/**SERVICES**/
+.services{
+	text-align: center;
+}
+.services .services-content i{
+	font-size: 32px;
+	color: #e3301e;
 }
 
 

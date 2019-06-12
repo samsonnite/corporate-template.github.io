@@ -7,6 +7,7 @@ body{
 	font-size: 14px;
 	font-weight: 300;
 	color: #777;
+	height: 2000px;
 	
 }
 
@@ -37,7 +38,7 @@ h3{
 	color: #34495e;
 }
 .secondary-dark-blue-bg{
-	background-color: #34495e;
+	background-color: #1e60a3;
 }
 .secondary-sky-blue{
 	color: #2d82d8;
@@ -53,4 +54,19 @@ ul li{
 }
 a:focus{
 	outline: 0;
+}
+a:hover{
+	text-decoration: none;
+}
+ol, ul{
+	margin-bottom: 0px; 
+}
+ul{
+	list-style: none;
+}
+ul li{
+	display: inline-block;
+}
+.section-padding{
+	padding: 80px 0;
 }

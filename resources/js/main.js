@@ -24,6 +24,17 @@ $(document).ready(function(){
 			anchorBuilder: false
 		}
 	});
+	$(window).scroll(function(){
+		var top = $(window).scrollTop();
+		if(top>=60px){
+			$("header").addClass('secondary-dark-blue-bg');
+		}
+		else{
+			if($("header").hasClass('secondary-dark-blue-bg')){
+				$("header").removeClass('secondary-dark-blue-bg');
+			}
+		}
+	});
 
 });
 	
