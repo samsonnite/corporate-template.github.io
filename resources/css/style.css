@@ -1,0 +1,28 @@
+header{
+	color: #fff;
+	height: 112px;
+	line-height: 112px;
+}
+header a.logo{
+	float: left;
+}
+header nav{
+	float: right;
+	font-weight: bold;
+}
+
+header nav ul li{
+	padding-left: 30px;
+}
+header nav ul li a{
+	color: #fff;
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	
+	
+}
+header nav ul li a:hover{
+	color: #e74c3c;
+	text-decoration: none;
+}
